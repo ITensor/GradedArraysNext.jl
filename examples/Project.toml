@@ -1,0 +1,5 @@
+[deps]
+GradedArraysNext = "6ca31247-5036-4cc6-95db-9b8b909db17f"
+
+[compat]
+GradedArraysNext = "0.1"

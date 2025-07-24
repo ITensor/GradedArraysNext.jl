@@ -1,0 +1,7 @@
+name = "GradedArraysNext"
+uuid = "6ca31247-5036-4cc6-95db-9b8b909db17f"
+authors = ["ITensor developers <support@itensor.org> and contributors"]
+version = "0.1.0"
+
+[compat]
+julia = "1.10"
