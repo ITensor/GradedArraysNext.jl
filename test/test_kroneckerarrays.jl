@@ -1,4 +1,4 @@
-using GradedArraysNext: GradedArraysNext, SU2, U1, dual, isdual
+using GradedArraysNext: SU2, U1, dual, isdual
 using KroneckerArrays: ×, cartesianrange
 using Test: @test, @testset
 

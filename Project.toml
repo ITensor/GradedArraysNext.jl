@@ -4,8 +4,10 @@ authors = ["ITensor developers <support@itensor.org> and contributors"]
 version = "0.1.1"
 
 [deps]
+BlockSparseArrays = "2c9a651f-6452-4ace-a6ac-809f4280fbb4"
 KroneckerArrays = "05d0b138-81bc-4ff7-84be-08becefb1ccc"
 
 [compat]
+BlockSparseArrays = "0.8.1"
 KroneckerArrays = "0.1.26"
 julia = "1.10"

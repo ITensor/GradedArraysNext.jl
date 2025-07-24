@@ -1,5 +1,6 @@
 [deps]
 Aqua = "4c88cf16-eb10-579e-8560-4a9242c79595"
+BlockSparseArrays = "2c9a651f-6452-4ace-a6ac-809f4280fbb4"
 GradedArraysNext = "6ca31247-5036-4cc6-95db-9b8b909db17f"
 KroneckerArrays = "05d0b138-81bc-4ff7-84be-08becefb1ccc"
 SafeTestsets = "1bc83da4-3b8d-516f-aca4-4fe02f6d838f"
@@ -8,6 +9,7 @@ Test = "8dfed614-e22c-5e08-85e1-65c5234f0b40"
 
 [compat]
 Aqua = "0.8"
+BlockSparseArrays = "0.8.1"
 GradedArraysNext = "0.1"
 KroneckerArrays = "0.1.26"
 SafeTestsets = "0.1"
