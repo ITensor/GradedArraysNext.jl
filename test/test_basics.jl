@@ -27,7 +27,8 @@ using Test: @test, @testset
     @test tensor_product(U1(1), dual(U1(2))) ≡ U1(-1)
     @test similar(Array{Float64}, (U1(0), U1(1))) ≡ δ(Float64, (U1(0), U1(1)))
     # TODO: Have a check that the flux matches.
-    @test reshape(δ(Float64, (U1(0), U1(1), U1(0))), (U1(0), U1(1))) ≡ δ(Float64, (U1(0), U1(1)))
+    @test reshape(δ(Float64, (U1(0), U1(1), U1(0))), (U1(0), U1(1))) ≡
+      δ(Float64, (U1(0), U1(1)))
   end
   @testset "SU2" begin
     @test !isdual(SU2(1))
