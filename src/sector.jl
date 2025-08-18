@@ -20,6 +20,8 @@ function Base.similar(
   return Delta{T}(ax)
 end
 
+# TODO: Add a check that the flux matches. Also, generalize to other types, like
+# `ScaledDelta`.
 function Base.reshape(a::Delta, ax::Tuple{AbelianSector,Vararg{AbelianSector}})
   length(a) == prod(length, ax) || throw(DimensionMismatch("reshape sizes don't match"))
   return Delta{eltype(a)}(ax)
