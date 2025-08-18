@@ -4,10 +4,20 @@ authors = ["ITensor developers <support@itensor.org> and contributors"]
 version = "0.1.2"
 
 [deps]
+DiagonalArrays = "74fd4be6-21e2-4f6f-823a-4360d37c7a77"
+TensorProducts = "decf83d6-1968-43f4-96dc-fdb3fe15fc6d"
+
+[weakdeps]
 BlockSparseArrays = "2c9a651f-6452-4ace-a6ac-809f4280fbb4"
 KroneckerArrays = "05d0b138-81bc-4ff7-84be-08becefb1ccc"
 
+[extensions]
+GradedArraysNextBlockSparseArraysExt = "BlockSparseArrays"
+GradedArraysNextKroneckerArraysExt = "KroneckerArrays"
+
 [compat]
 BlockSparseArrays = "0.8.1, 0.9"
+DiagonalArrays = "0.3.10"
 KroneckerArrays = "0.1.26"
+TensorProducts = "0.1.7"
 julia = "1.10"

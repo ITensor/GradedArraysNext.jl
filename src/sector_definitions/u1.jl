@@ -13,3 +13,9 @@ function Base.show(io::IO, s::U1)
 end
 isdual(s::U1) = s.isdual
 dual(s::U1) = U1(s.charge, !isdual(s))
+
+charge(s::U1) = isdual(s) ? -s.charge : s.charge
+using TensorProducts: TensorProducts
+function TensorProducts.tensor_product(s1::U1, s2::U1)
+  return U1(charge(s1) + charge(s2))
+end
