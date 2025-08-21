@@ -1,7 +1,7 @@
 name = "GradedArraysNext"
 uuid = "6ca31247-5036-4cc6-95db-9b8b909db17f"
 authors = ["ITensor developers <support@itensor.org> and contributors"]
-version = "0.1.3"
+version = "0.1.4"
 
 [deps]
 DiagonalArrays = "74fd4be6-21e2-4f6f-823a-4360d37c7a77"
@@ -16,7 +16,7 @@ GradedArraysNextBlockSparseArraysExt = "BlockSparseArrays"
 GradedArraysNextKroneckerArraysExt = "KroneckerArrays"
 
 [compat]
-BlockSparseArrays = "0.8.1, 0.9"
+BlockSparseArrays = "0.8.1, 0.9, 0.10"
 DiagonalArrays = "0.3.10"
 KroneckerArrays = "0.1.26"
 TensorProducts = "0.1.7"
