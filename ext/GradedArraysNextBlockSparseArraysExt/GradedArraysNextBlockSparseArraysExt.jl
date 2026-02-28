@@ -1,9 +1,9 @@
 module GradedArraysNextBlockSparseArraysExt
 
-using GradedArraysNext: GradedArraysNext, dual
 using BlockSparseArrays: BlockUnitRange, blockrange, eachblockaxis
+using GradedArraysNext: GradedArraysNext, dual
 function GradedArraysNext.dual(r::BlockUnitRange)
-  return blockrange(map(dual, eachblockaxis(r)))
+    return blockrange(map(dual, eachblockaxis(r)))
 end
 
 end
