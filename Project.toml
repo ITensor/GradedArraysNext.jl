@@ -1,7 +1,7 @@
 name = "GradedArraysNext"
 uuid = "6ca31247-5036-4cc6-95db-9b8b909db17f"
+version = "0.1.5"
 authors = ["ITensor developers <support@itensor.org> and contributors"]
-version = "0.1.4"
 
 [deps]
 DiagonalArrays = "74fd4be6-21e2-4f6f-823a-4360d37c7a77"
